@@ -11,7 +11,7 @@ int main() {
 	cin >> NamaFile;
 
 
-	// membuka file dalam mode menulis.
+	// membuka file dalam mode menulis. 
 	ofstream outfile;
 	// menunjukkan ke sebuah nama file
 	outfile.open(NamaFile +".txt", ios::out);
