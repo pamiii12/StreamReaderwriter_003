@@ -23,6 +23,20 @@ int main() {
 		// Menulis dan memasukkan nilai dari 'baris' ke dalam file
 		outfile << baris << endl;
 	} 
+	// Selesai dalam menulis sekarang tutup file nya
+	outfile.close();
+
+	// Membuka file dalam mode membaca
+	ifstream infile;
+	// Menunjuk ke sebuah file
+	infile.open("contohfile.txt");
+
+	cout << endl << ">= Membuka dan membaca file " << endl;
+	if (infile.is_open()) 
+	{
+		// Melakukan perulangan setiap baris
+
+	}
 
 
 }
